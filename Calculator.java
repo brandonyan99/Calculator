@@ -36,7 +36,6 @@ public class Calculator extends JFrame {
 
 		add.addActionListener(new ActionListener(){
 
-			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				if(F1.getText().equals("")||F2.getText().equals("")) {
 					JOptionPane.showMessageDialog(null, "Inputs cannot be blank","Error",JOptionPane.ERROR_MESSAGE);
@@ -55,7 +54,6 @@ public class Calculator extends JFrame {
 
 		subtract.addActionListener(new ActionListener(){
 
-			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				if(F1.getText().equals("")||F2.getText().equals("")) {
 					JOptionPane.showMessageDialog(null, "Inputs cannot be blank","Error",JOptionPane.ERROR_MESSAGE);
@@ -75,7 +73,6 @@ public class Calculator extends JFrame {
 
 		multiply.addActionListener(new ActionListener(){
 
-			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				if(F1.getText().equals("")||F2.getText().equals("")) {
 					JOptionPane.showMessageDialog(null, "Inputs cannot be blank","Error",JOptionPane.ERROR_MESSAGE);
@@ -95,7 +92,6 @@ public class Calculator extends JFrame {
 
 		divide.addActionListener(new ActionListener(){
 
-			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				if(F1.getText().equals("")||F2.getText().equals("")) {
 					JOptionPane.showMessageDialog(null, "Inputs cannot be blank","Error",JOptionPane.ERROR_MESSAGE);
@@ -114,7 +110,6 @@ public class Calculator extends JFrame {
 		});
 		copyF1.addActionListener(new ActionListener(){
 
-			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				if(F1.getText().equals("")||F2.getText().equals("")) {
 					JOptionPane.showMessageDialog(null, "Inputs cannot be blank","Error",JOptionPane.ERROR_MESSAGE);
@@ -128,7 +123,6 @@ public class Calculator extends JFrame {
 		});
 		copyF2.addActionListener(new ActionListener(){
 
-			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				if(F1.getText().equals("")||F2.getText().equals("")) {
 					JOptionPane.showMessageDialog(null, "Inputs cannot be blank","Error",JOptionPane.ERROR_MESSAGE);
@@ -142,7 +136,6 @@ public class Calculator extends JFrame {
 		});
 		quit.addActionListener(new ActionListener(){
 
-			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				System.exit(0);		
 			}		
